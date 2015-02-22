@@ -19,12 +19,12 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 2. reshape
 
 ## Variables and process
-X_train, X_test - data frames, where the data from train and test source data was read into. Information from features and activity_labels was used to give names to variables
-y_train, y_test - data frames, where activity types are stored
-activity_labels - types of activities
-features - types of measured subject
-subject_test - number of a subject/volunteer
-ext_index - indexes for extracting information only about nean and standard deviations from test and train data frames
-bind_test, bind_train - merged data for test and train
-bind_data - merged data (test + train)
-tidy - data, properly filtered and labeled
+1. X_train, X_test - data frames, where the data from train and test source data was read into. Information from features and activity_labels was used to give names to variables
+2. y_train, y_test - data frames, where activity types are stored
+3. activity_labels - types of activities
+4. features - types of measured subject
+5. subject_test - number of a subject/volunteer
+6. ext_index - indexes for extracting information only about nean and standard deviations from test and train data frames
+7. bind_test, bind_train - merged data for test and train
+8. bind_data - merged data (test + train)
+9. tidy - data, properly filtered and labeled
