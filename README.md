@@ -23,5 +23,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 1. Loads two packages ("data.table", "reshape") in library;
 2. Reads "train" and "test" files into data tables;
 3. Reads the activity labels and features to be used as descriptive column headers;
+4. Extracts only mean and standard deviation data from data sets;
 4. Binds test and train data together;
 5. Creates new tidy data set for the average of each variable for each activity and each subject
