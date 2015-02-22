@@ -19,7 +19,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 2. Script file "run_analysis.R" should be in your R working directory;
 3. Run script file. It will create "tidy.txt" in your R working directory
 
-# What a script does:
+## What a script does:
 1. Loads two packages ("data.table", "reshape") in library;
-2. Reads "train" and "test" files intodata tables;
-3. 
+2. Reads "train" and "test" files into data tables;
+3. Reads the activity labels and features to be used as descriptive column headers;
+4. Binds test and train data together;
+5. Creates new tidy data set for the average of each variable for each activity and each subject
